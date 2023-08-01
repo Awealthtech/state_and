@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(25, 65, 10);
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    font-size: 10px;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 9px;
+    position: fixed;
+    overflow: scroll;
+}
+.buttons{
+    display: grid;
+    gap: 10px;
+      overflow: scroll;
+      margin-left: 60px;
+}
+button{
+    width: 60px;
+    height: 25px;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(255, 250, 250);
+    color: rgb(209, 159, 10);
+    transition: all ease-in-out;
+}
+button:active{
+background-color: rgb(238, 195, 101);
+color: blue;
+}
+.lga blockquote{
+    font-size: 23px;
+    width: 100px;
+    color: white;
+    margin-left: 100px;
+}
+h3{
+    font-size: 18px;
+    color: rgb(243, 119, 212);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: rgb(242, 240, 236);
+    font-size: 20px;
+}
+b{
+    font-size: 14px;
+    margin-left: 50px;
+    color: white;
+}
